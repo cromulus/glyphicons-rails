@@ -27,7 +27,7 @@ Add this to your application.css.scss file:
 To show an icon use:
 
 ```scss
-@exted %glyphicon-[icon_name];
+@extend %glyphicon-[icon_name];
 ```
 
 Example:
