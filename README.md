@@ -21,22 +21,21 @@ And then execute:
 Add this to your application.css.scss file:
 
 ```scss
-@import "glyphicons-rails";
+@import "glyphicons";
 ```
 
-## Development
+To show an icon use:
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
+```scss
+@exted %glyphicon-[icon_name];
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Example:
 
-## Contributing
+```scss
+.hide-button {
+  @extend %glyphicon-chevron-up;
+}
+```
 
-1. Fork it ( https://github.com/[my-github-username]/glyphicons-rails/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Credit
-GLYPHICONS Halflings are
+You can find all the icons (with names) at the official [Twitter Bootstrap components page](http://getbootstrap.com/components/).
