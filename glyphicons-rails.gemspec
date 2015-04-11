@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gianlucaatlas _nospam_ (at) gmail (com)"]
 
   spec.summary       = %q{GLYPHICONS Halflings icons for use with Rails}
-  spec.description   = %q{GLYPHICONS Halflings icons extracted from Twitter Bootstrap and integrated with Sass @extend. For use with Rails.}
+  spec.description   = %q{GLYPHICONS Halflings, extracted from Twitter Bootstrap and customized for use with Sass @extend and Rails.}
   spec.homepage      = "https://github.com/buglite/glyphicons-rails"
   spec.license       = "MIT"
 
