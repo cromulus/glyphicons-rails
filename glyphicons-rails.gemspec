@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{GLYPHICONS Halflings icons for use with Rails}
   spec.description   = %q{GLYPHICONS Halflings, extracted from Twitter Bootstrap and customized for use with Sass @extend and Rails.}
-  spec.homepage      = "https://github.com/buglite/glyphicons-rails"
+  spec.homepage      = "https://github.com/3rror/glyphicons-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
